@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Input Data</title>
+
+    <!-- bootstrap css -->
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <script src="./js/bootstrap.bundle.js"></script>
+    <!-- bootstrap css -->
+
+    <!-- css eksternal -->
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./mobile.css">
+    <!-- css eksternal -->
+
+    <!-- icon -->
+    <link rel="shorcut icon" href="./assets/favicon.ico" type="image/x-icon">
+    <!-- icon -->
+
+    <!-- iconify -->
+    <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
+    <!-- iconify -->
+
+</head>
+
+<body>
+
+    <div class="inputreservationback">
+        <!-- navbar -->
+        <nav id="logged" class="navbar navbar-expand-lg">
+            <div class="container">
+                <a class="navbar-brand" href="./home.html"><img src="./assets/logo-white.png" alt=""></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                        <a class="nav-link" href="home.html">Home</a>
+                        <a class="nav-link" href="menu.html">Menu</a>
+                        <a class="nav-link" href="about.html">About</a>
+                        <a class="nav-link" href="reservation.html">Reservation</a>
+                    </div>
+                    <div class="dropdown">
+                        <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            <img src="./assets/login.jpg" alt="" class="rounded-circle"
+                                style="width: 30px; height: 30px;">
+                            <h5>Yuvia</h5>
+                        </button>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="./index.html">Log Out</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <!-- navbar -->
+
+        <!-- masuk -->
+        <div class="container">
+            <div class="input-data">
+                <div class="header">
+                    <h1>Reservation</h1>
+                </div>
+                <div class="main">
+                    <form action="">
+                        <span>
+                            <label for="name">Nama Lengkap</label>
+                            <input type="text" id="name" placeholder="Masukan nama lengkap anda">
+                        </span>
+                        <br>
+                        <div class="row">
+                            <div class="col-lg-8">
+                                <span>
+                                    <label for="email">Email</label>
+                                    <input type="text" id="name" placeholder="Masukn alamat email">
+                                </span>
+                            </div>
+                            <div class="col-lg-4">
+                                <span>
+                                    <label for="name">Nomor Telepon</label>
+                                    <input type="text" id="name" placeholder="No. Telepon">
+                                </span>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-8">
+                                <div class="row">
+                                    <div class="col-lg-6">
+                                        <span>
+                                            <label for="date">Tanggal</label>
+                                            <input type="text" id="name" placeholder="Tanggal Reservasi">
+                                        </span>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <span>
+                                            <label for="time">Jam</label>
+                                            <input type="text" id="name" placeholder="Jam Reservasi">
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4">
+                                <span>
+                                    <label for="name">Meja</label>
+                                    <input type="dropdown" id="name" placeholder="Pilih meja">
+                                </span>
+                            </div>
+                        </div>
+                        <a class="btn btn-outline-light" href="./payment.html">Reservation</a>
+                        <div class="lupapw">
+                            <p><i>*Maksimal keterlambatan 3o menit</i></p>
+                            <div class="col d-flex justify-content-between">
+                                <p>Sudah reservasi?<a href="./reservation.html">Lhat sekarang</a></p>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <!-- masuk -->
+    </div>
+
+    <!-- footer Sfd -->
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4">
+                    <img src="./assets/Logo-black.png" alt="">
+                </div>
+
+                <div class="col-lg-4">
+                    <div class="section-akun">
+                        <a href=""><img src="./assets/instagram.png" alt=""></a>
+                        <a href=""><img src="./assets/facebook.png" alt=""></a>
+                        <a href=""><img src="./assets/twitter.png" alt=""></a>
+                    </div>
+                </div>
+
+                <div class="col-lg-4">
+                    <p><iconify-icon icon="ic:baseline-phone"></iconify-icon>0088899898</p>
+                    <p><iconify-icon icon="material-symbols:mail"></iconify-icon>skechfd@gmail.com</p>
+                    <p><iconify-icon icon="mdi:location"></iconify-icon>Jalan makanan sehat, No. 450</p>
+                </div>
+                <hr>
+                <h6>&copy; copyright, Skech Food 2024</h6>
+            </div>
+        </div>
+    </div>
+    <!-- footer Sfd -->
+
+</body>
+
+</html>

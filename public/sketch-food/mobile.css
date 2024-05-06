@@ -1,0 +1,1170 @@
+@media (max-width: 992px) {
+
+
+    /* -- FOOTER ------------------- */
+    .footer {
+        background-color: rgba(145, 83, 1, 0.103);
+        height: 800px;
+    }
+    .footer p {
+        width: 350px;
+        margin-left: 10px;
+        font-family: monospace;
+        margin-top: 5px;
+    }
+    .footer iconify-icon {
+        width: 30px;
+
+    }
+    .footer .col-lg-4 img {
+        width: 160px;
+    }
+    .footer .section-akun {
+        margin-top: 30px;
+        margin-left: 50px;
+    }
+    .footer .section-akun img {
+        width: 25px;
+        margin-right: 15px;
+    }
+    .footer h6 {
+        margin-top: 10px;
+        margin-bottom: 10px;
+        text-align: center;
+
+    }
+    /* -- FOOTER ------------------- */
+
+
+
+    /* -- NAVBAR ------------------- */
+    /* Navbar */
+    .container .navbar {
+        margin-bottom: 2px;
+        text-align: center;
+    }
+
+    .container .navbar-toggler {
+        border-color: white;
+        background-color: #ffffff34;
+    }
+
+    .navbar-brand img {
+        width: 150px;
+    }
+    .nav-link:hover {
+        border-radius: 10px;
+        box-shadow: #ffffff 0 0 3px;
+    }
+    .navbar-nav a:hover {
+        box-shadow: 3px 3px 6px #949393;
+        background-color: #724c12;
+    }
+
+    .navbar-nav .nav-link {
+        margin-right: 155px;
+        color: white;
+        text-align: center;
+        font-size: small;
+        font-weight: 500;
+    }
+
+    .navbar-nav .btn {
+        margin-left: 1px;
+        margin-top: 10px;
+        color: white;
+        text-align: center;
+        background: none;
+        width: 200px;
+        border-radius: 10px;
+    }
+
+    .navbar-nav .btn-group {
+        margin-left: 1px;
+        padding-bottom: 20px;
+        color: white;
+        text-align: center;
+        background: none;
+        width: 200px;
+        border-radius: 10px;
+    }
+
+
+    /* sudah login */
+
+    #logged .dropdown {
+        color: white;
+        width: 200px;
+        border-radius: 10px;
+    }
+
+    #logged .dropdown .btn {
+        margin-left: 1px;
+        color: white;
+        text-align: center;
+        background: none;
+        width: 200px;
+        border-radius: 10px;
+        margin-bottom: 1px;
+    }
+
+    #logged .dropdown h5{
+        margin-left: 10px;
+        margin-top: 5px;
+    }
+    #logged .dropdown .btn:hover {
+        box-shadow: 3px 3px 6px #949393;
+        background-color: #724c12;
+    }
+    #logged .dropdown img {
+        width: 24px;
+        height: 24px;
+    }
+    #logged .dropdown .dropdown-menu {
+        margin-left: 5px;
+        background-color: #724c12c4;
+        margin-bottom: 5px;
+        text-align: center;
+        font-weight: bold;
+    }
+    #logged .dropdown-menu a:hover {
+        box-shadow: 3px 3px 6px #949393;
+        background-color: #724c12;
+        height: 30px;
+        width: 150px;
+        color: white;
+    }
+    /* sudah login */
+    /* Navbar */
+    /*-- NAVBAR ------------------- */
+
+
+
+    /*-- INDEX ----------------- */
+
+    /* background1 */
+    .background1{
+        background-image: url(./assets/back-kor.jpg);
+        background-repeat: no-repeat;
+        height: 970px;
+        width: 100%;
+        background-size: cover;
+        background-position: center;
+    }
+    .background1::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 970px;
+        background-color: rgba(58, 36, 6, 0.911);
+    }
+    /* background1 */
+
+
+    /* Hero */
+    .first-hero {
+        position: relative;
+        color: white;
+        margin-left: 20px;
+    }
+
+    .first-hero h1 p {
+        font-size: 19px;
+        font-family:monospace;
+        margin-top: 40px;
+        width: 100%;
+
+    }
+
+    .first-hero p {
+        width: 170px;
+        font-size: 10px;
+        opacity: 80%;
+        margin-top: 10px;
+    }
+
+    .first-hero img {
+        width: 143px;
+        height: 166px;
+        opacity: 70%;
+        margin-top: 30px;
+        object-fit: cover;
+        border-radius: 5px;
+    }
+    /* Hero */
+
+
+    /* Second.hero */
+    .second-hero {
+        position: relative;
+        margin-top:5px;
+        color: white;
+        margin-left: 20px;
+    }
+
+    .second-hero .shero1 h1 p {
+        font-size: 15px;
+        font-family:monospace;
+        width: 200px;
+    }
+
+    .second-hero .shero1 img {
+        width: 183px;
+        height: 119px;
+        opacity: 60%;
+        object-fit: cover;
+        border-radius: 5px;
+    }
+
+    .second-hero .shero2 img {
+        width: 90px;
+        height: 150px;
+        opacity: 65%;
+        object-fit: cover;
+        margin-left: 85px;
+        margin-top: 90px;
+        border-radius: 5px;
+    }
+
+    .second-hero .shero2 p {
+        margin-top: 10px;
+        margin-left: 50px;
+        width: 150px;
+        opacity: 90%;
+        font-size: 10px;
+    }
+    /* Second.hero */
+
+
+    /* menu */
+    .ourMenu {
+        background-color: rgba(145, 83, 1, 0.103);
+        color: black;
+        font-family: cursive;
+        display: flex;
+        justify-content: center;
+
+    }
+
+    .ourMenu h1 {
+        font-size: 30px;
+        opacity: 70%;
+        font-family:monospace;
+        margin-top: 45px;
+        margin-bottom: 10px;
+        text-align: center;
+    }
+
+    .ourMenu .section-menu {
+        width: 90%;
+        margin-left: 15px;
+        margin-bottom: 50px;
+    }
+
+    .ourMenu .section-menu label {
+        margin-top: 30px;
+        opacity: 80%;
+        font-size: 15px;
+        font-weight: bold;
+    }
+
+    .ourMenu .section-menu p {
+        width: 100%;
+        opacity: 80%;
+        font-size: 13px;
+    }
+    /* menu */
+
+
+    /* kata mutiara */
+
+    .kata-mutiara {
+        background-image: linear-gradient( rgba(110, 70, 13, 0.801) , rgba(145, 83, 1, 0.103));
+    }
+    .mutiara1 img {
+        width: 150px ;
+        height: 230px;
+        opacity: 90%;
+        object-fit: cover;
+        border-radius: 5px;
+        margin-top: 70px;
+        margin-bottom: 1px;
+        margin-left: 20px;
+    }
+
+    .mutiara1 p {
+        margin-top: 90px;
+        opacity: 80%;
+        width: 140px;
+        text-align: left;
+        font-size: 13px;
+        margin-left: 1px;
+    }
+
+    .mutiara1 h4 {
+        margin-top: 30px;
+        opacity: 80%;
+        padding-left: 5px;
+        margin-right: 5px;
+        font-size: 17px;
+    }
+
+    .mutiara2 img {
+        width: 130px ;
+        height: 230px;
+        opacity: 100%;
+        object-fit: cover;
+        border-radius: 5px;
+        margin-top: 120px;
+        margin-left: 30px;
+        margin-bottom: 100px;
+    }
+
+    .mutiara2 p {
+        width: 80%;
+        opacity: 80%;
+        margin-top: 145px;
+        margin-bottom: 1px;
+        font-size: 13px;
+        margin-left: 40px;
+    }
+
+    .mutiara2 h4 {
+        margin-top: 30px;
+        opacity: 80%;
+        font-size: 17px;
+        padding-right: 40px;
+    }
+    /* kata mutiara */
+
+
+    /* reservasi */
+    .reservasi {
+        background-color: rgba(145, 83, 1, 0.103) ;
+
+    }
+
+    .reservasi h1 {
+        font-size: 32px;
+        font-family:monospace;
+        opacity: 80%;
+        margin-top: 50px;
+        margin-bottom: 10px;
+        text-align: center;
+    }
+
+    .reservasi p {
+        width: 90%;
+        opacity: 80%;
+        margin-top: 10px;
+        text-align: center;
+        font-size: 12px;
+        margin-left: 20px;
+    }
+
+    .reservasi a {
+        margin-top: 30px;
+        margin-left: 80px;
+        width: 250px;
+        margin-bottom: 150px;
+        color: black;
+    }
+    /* reservasi */
+    /*--INDEX ----------------- */
+
+
+
+    /*--LOGIN ----------------- */
+    /* masuk */
+    .loginback {
+        background-image: url(./assets/back-kor2.jpg);
+        background-repeat: no-repeat;
+        height: 850px;
+        width: 100%;
+        background-size: cover;
+        background-position: center;
+    }
+    .loginback::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 850px;
+        background-color: rgba(58, 36, 6, 0.719);
+    }
+    .login {
+        position: relative;
+        width: 390px;
+        margin: 40px auto;
+        border-radius: 25px;
+        background-color: rgba(0, 0, 0, 0.4);
+        box-shadow: 0 0 2px #333 ;
+    }
+
+    .login .header {
+        text-align: center;
+        padding: 30px;
+    }
+
+    .login .header h1 {
+        color: #e2e1e1d2;
+        font-size: 25px;
+        font-weight: bold;
+        margin-bottom: 0;
+    }
+
+    .login .main {
+        text-align: center;
+    }
+
+    .login .main input, .btn {
+        width: 310px;
+        height: 40px;
+        border-radius: 15px;
+        font-size: 15px;
+    }
+
+    .login .main .btn {
+        width: 210px;
+        background-color: #724c12be;
+        font-weight: bold;
+        color: white;
+        padding-left: 10px;
+        margin-left: 2px;
+        margin-bottom: 30px;
+        text-align: center;
+    }
+    .login .main .btn:hover {
+        box-shadow: 2px 2px 5px #555;
+        background-color: #724c12;
+    }
+    .login .main input {
+        background-color: #ffffff;
+        margin-bottom: 20px;
+        margin-left: 41px;
+        font-size: 15px;
+        padding-left: 40px;
+    }
+
+
+    .login .main span {
+        position: relative;
+    }
+    .login .main iconify-icon {
+        position: absolute;
+        font-size: 12px;
+        top: 7px;
+        right: 120px;
+    }
+    .login .lupapw {
+        padding-right: 10px;
+        padding-left: 15px;
+    }
+    .login .lupapw p {
+        margin-bottom: 20px;
+        color: #ffffff74;
+        font-size: 14px;
+        text-decoration: none;
+    }
+    .login .lupapw a {
+        margin-right: 5px;
+        color: #ffffffef;
+        font-size: 14px;
+        text-decoration: none;
+    }
+    /* masuk */
+    /*----------------- LOGIN ----------------- */
+
+
+    /*----------------- REGISTER ----------------- */
+    /* register */
+    .registerback {
+        background-image: url(./assets/back-kor3.jpg);
+        background-repeat: no-repeat;
+        height: 1200px;
+        width: 100%;
+        background-size: cover;
+        background-position: center;
+    }
+    .registerback::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 1200px;
+        background-color: rgba(58, 36, 6, 0.719);
+    }
+    .register {
+        position: relative;
+        width: 390px;
+        height: 700px;
+        margin: 40px auto;
+        border-radius: 25px;
+        background-color: rgba(0, 0, 0, 0.4);
+        box-shadow: 0 0 2px #333 ;
+    }
+
+    .register .header {
+        text-align: center;
+        padding: 50px;
+    }
+
+    .register .header h1 {
+        color: #e2e1e1d2;
+        font-size: 25px;
+        font-weight: bold;
+        margin-bottom: 0;
+    }
+
+    .register .main {
+        width: 80%;
+        padding-left:1px ;
+        text-align: center;
+    }
+
+    .register .main label {
+        color: #ffffff;
+        margin-bottom: 10px;
+        margin-left: 75px;
+    }
+
+    .register .main input, .btn {
+        background-color: #ffffff;
+        margin-bottom: 40px;
+        margin-left: 40px;
+        text-align: center;
+        width: 310px;
+        font-size: 15px;
+        padding-left: 6px;
+
+    }
+    .register .main .btn {
+        width: 210px ;
+        padding-left: 10px;
+        background-color: #724c12a6;
+        color: white;
+        margin-left: 70px;
+        font-weight: bold;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    .register .main .btn:hover {
+        box-shadow: 2px 2px 5px #555;
+        background-color: #724c12;
+    }
+    .register .main input {
+        background-color: #ffffff;
+        margin-bottom: 10px;
+        font-size: 15x;
+    }
+
+    .register .main span {
+        position: relative;
+    }
+    .register .lupapw {
+        padding-left: 20px;
+    }
+    .register .lupapw p {
+        margin-top: 10px;
+        color: #ffffff74;
+        text-decoration: none;
+    }
+    .register .lupapw a {
+        margin-left: 10px;
+        color: #ffffffef;
+        text-decoration: none;
+    }
+    /* register */
+    /*-- REGISTER ----------------- */
+
+
+    /*-- MENU ----------------- */
+    /* list menu */
+    .listmenuback {
+        background-image: url(./assets/back3.jpg);
+        background-repeat: no-repeat;
+        height: 550px;
+        width: 100%;
+        background-size: cover;
+        background-position: center;
+    }
+    .listmenuback::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 550px;
+        background-color: rgba(58, 36, 6, 0.842);
+    }
+    .list-menu {
+        position: relative;
+        margin-top: 70px;
+        color: white;
+    }
+    .list-menu h1 {
+        font-size: 40px;
+        font-family:monospace;
+        margin-top: 20px;
+    }
+    .list-menu p {
+        width: 100%;
+        font-size: 15px;
+        opacity: 70%;
+        margin-top: 10px;
+    }
+    /* list menu */
+
+    .menu {
+        background-image: linear-gradient( rgba(145, 83, 1, 0.103) , rgba(110, 70, 13, 0.801) , rgba(145, 83, 1, 0.103));
+        font-family: cursive;
+
+    }
+
+    /* food */
+    .section-food h1 {
+        margin-top: 40px;
+        margin-left: 10px;
+        font-family: monospace;
+        font-size: 40px ;
+    }
+    .section-food img {
+        width: 95%;
+        height: 120px;
+        opacity: 85%;
+        object-fit: cover;
+        border-radius: 5px;
+        margin-top: 5px;
+        margin-bottom: 1px;
+        margin-left: 10px;
+    }
+    .section-food .list {
+        margin-top: 10px;
+        margin-left: 10px;
+        width: 95%;
+    }
+    .section-food .list label {
+        margin-top: 30px;
+        font-weight: bold;
+        font-size: 15px;
+    }
+    .section-food .list p {
+        font-size: 12px;
+    }
+    .section-food .list a {
+        color: black;
+        margin-left: 260px;
+
+    }
+    /* food */
+
+    /* drink */
+    .section-drink h1 {
+        margin-top: 40px;
+        width: 200px;
+        margin-left: 10px;
+        font-family: monospace;
+        font-size: 40px ;
+        color: white;
+    }
+    .section-drink img {
+        width: 150px;
+        height: 450px;
+        opacity: 70%;
+        object-fit: cover;
+        border-radius: 5px;
+        margin-top: 5px;
+        margin-bottom: 100px;
+        margin-left: 30px;
+    }
+    .section-drink .list {
+        margin-top: 10px;
+        margin-left: 10px;
+        width: 200px;
+        color: #ffffff;
+    }
+    .section-drink .list label {
+        margin-top: 10px;
+        font-size: 15px;
+        font-weight: bold;
+    }
+    .section-drink .list p {
+        font-size: 10px;
+    }
+    .section-drink .list a {
+        color: white;
+        margin-top: 10px;
+        margin-left: 85px;
+    }
+    /* drink */
+
+    /* dessert */
+    .section-dessert h1 {
+        margin-top: 40px;
+        margin-left: 10px;
+        font-family: monospace;
+        font-size: 40px ;
+
+    }
+    .section-dessert img {
+        width: 95%;
+        height: 120px;
+        opacity: 85%;
+        object-fit: cover;
+        border-radius: 5px;
+        margin-top: 5px;
+        margin-bottom: 1px;
+        margin-left: 10px;
+    }
+    .section-dessert .list {
+        margin-top: 10px;
+        margin-left: 10px;
+        width: 95%;
+        margin-bottom: 50px;
+    }
+    .section-dessert .list label {
+        margin-top: 30px;
+        font-weight: bold;
+    }
+    .section-dessert .list p {
+        font-size: 12px;
+    }
+    .section-dessert .list a {
+        color: black;
+        margin-top: 50px;
+        margin-left: 260px;
+    }
+    /* dessert */
+    /*-- MENU ----------------- */
+
+    /* -- FOOD --------------- */
+    .foodback {
+        background-image: url(./assets/food4.jpg);
+        background-repeat: no-repeat;
+        height: 500px;
+        width: 100%;
+        background-size: cover;
+        background-position: top;
+    }
+    .foodback::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 500px;
+        background-color: rgba(58, 36, 6, 0.863);
+    }
+    /* food */
+    .detail-header {
+        position: relative;
+        margin-top: 10px;
+        color: white;
+    }
+    .detail-header h1 {
+        font-size: 40px;
+        font-family:monospace;
+        margin-top: 20px;
+        font-weight: bold;
+    }
+    .detail-header a {
+        color: white;
+        text-decoration: none;
+        font-size: 20px;
+        margin-right: 20px;
+        text-decoration:underline;
+    }
+    .detail-header p {
+        width: 95%;
+        opacity: 70%;
+        margin-top: 10px;
+    }
+
+    .detail-menu {
+        background-image: linear-gradient(to top, rgba(145, 83, 1, 0.103), rgba(110, 70, 13, 0.452));
+        font-family: cursive;
+        display: flex;
+        justify-content: center;
+    }
+
+    .detail-menu .section-detail-menu {
+        width: 90%;
+        margin-left: 15px;
+    }
+
+    .detail-menu .section-detail-menu label {
+        margin-top: 50px;
+        opacity: 100%;
+        font-size: 15px;
+    }
+
+    .detail-menu .section-detail-menu p {
+        width: 100%;
+        opacity: 90%;
+        font-size: 12px;
+    }
+    /* food */
+    /* -- FOOD --------------- */
+
+    /* -- DRINK -------------- */
+    .drinkback {
+        background-image: url(./assets/back6.jpg);
+        background-repeat: no-repeat;
+        height: 500px;
+        width: 100%;
+        background-size: cover;
+        background-position: center;
+    }
+    .drinkback::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 500px;
+        background-color: rgba(58, 36, 6, 0.842);
+    }
+    /* -- DRINK ------------------ */
+
+    /* -- DESSERT ----------------- */
+    .dessertback {
+        background-image: url(./assets/dessert3.jpg);
+        background-repeat: no-repeat;
+        height: 500px;
+        width: 100%;
+        background-size: cover;
+        background-position: center;
+    }
+    .dessertback::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 500px;
+        background-color: rgba(58, 36, 6, 0.884);
+    }
+    /* -- DESSERT -------------- */
+
+
+
+    /* -- ABOUT -------------- */
+    /* about-header */
+    .aboutback {
+        background-image: url(./assets/back3.jpg);
+        background-repeat: no-repeat;
+        height: 550px;
+        width: 100%;
+        background-size: cover;
+        background-position: center;
+    }
+    .aboutback::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 550px;
+        background-color: rgba(58, 36, 6, 0.842);
+    }
+    .about-header {
+        position: relative;
+        margin-top: 30px;
+        color: white;
+    }
+    .about-header h1 {
+        font-size: 40px;
+        font-family:monospace;
+        margin-top: 20px;
+    }
+    .about-header p {
+        width: 100%;
+        opacity: 70%;
+        margin-top: 10px;
+    }
+    /* about-header */
+
+    .about {
+        background-image: linear-gradient( rgba(110, 70, 13, 0.801) , rgba(145, 83, 1, 0.103));
+        font-family: cursive;
+
+    }
+
+    /* about */
+    .section-about img {
+        width: 80%;
+        height: 350px;
+        opacity: 85%;
+        object-fit: cover;
+        border-radius: 5px;
+        margin-left: 10px;
+        margin-top: 100px;
+        margin-bottom: 100px;
+    }
+    .section-about p {
+        color: white;
+        width: 100%;
+        margin-top: 170px;
+        margin-left: 20px;
+        font-size: 13px;
+    }
+    /* about */
+
+    /* location */
+    .section-location img {
+        width: 100%;
+        height: 300px;
+        opacity: 85%;
+        object-fit: cover;
+        border-radius: 5px;
+        margin-left: 30px;
+        margin-bottom: 130px;
+    }
+    .section-location p {
+        color: black;
+        width: 100%;
+        margin-top: 50px;
+        margin-left: 30px;
+        font-size: 13px;
+    }
+    .section-location a {
+        margin-left: 50px;
+        margin-top: 20px;
+        width: 150px;
+        background: none;
+        color: black;
+    }
+    /* location */
+    /* -- ABOUT -------------- */
+
+
+    /* -- RESERVATION -------------- */
+    /* -- RESERVATION -------------- */
+
+
+    /* -- PAYMENT -------------- */
+    /* -- PAYMENT -------------- */
+
+
+    /* -- RESERVATION INPUT -------------- */
+    .inputreservationback {
+        background-image: url(./assets/meja.jpg);
+        background-repeat: no-repeat;
+        height: 1200px;
+        width: 100%;
+        background-size: cover;
+        background-position: center;
+    }
+    .inputreservationback::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 1200px;
+        background-color: rgba(58, 36, 6, 0.897);
+    }
+    .input-data {
+        position: relative;
+        width: 350px;
+        margin: 40px auto;
+        border-radius: 25px;
+        background-color: rgba(0, 0, 0, 0.418);
+        box-shadow: 0 0 2px #333 ;
+    }
+
+    .input-data .header {
+        text-align: center;
+        padding: 50px;
+    }
+
+    .input-data .header h1 {
+        color: #e2e1e1f5;
+        font-size: 40px;
+        font-weight: bold;
+        margin-bottom: 0;
+    }
+
+    .input-data .main {
+        width: 95%;
+        padding-left:20px ;
+    }
+
+    .input-data .main label {
+        color: #ffffff;
+        margin-left: 5px;
+        margin-bottom: 10px;
+    }
+
+    .input-data .main input, .btn {
+        width: 100%;
+        height: 40px;
+        border-radius: 15px;
+        padding-left: 10px;
+        font-size: 15px;
+
+    }
+    .input-data .main .btn {
+        width: 310px ;
+        padding-left: 10px;
+        background-color: #724c12a6;
+        color: white;
+        margin-left: 1px;
+        font-weight: bold;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    .input-data .main .btn:hover {
+        box-shadow: 2px 2px 5px #555;
+        background-color: #724c12;
+    }
+    .input-data .main input {
+        background-color: #ffffff;
+        margin-bottom: 20px;
+        font-size: 15x;
+    }
+
+
+    .input-data .main span {
+        position: relative;
+    }
+    .input-data .lupapw {
+        padding-right: 50px;
+        padding-left: 5px;
+    }
+    .input-data .text-secondary {
+        font-size: 13px;
+        text-align: center;
+    }
+    .input-data .lupapw p {
+        margin-bottom: 20px;
+        color: #ffffff74;
+        text-decoration: none;
+    }
+    .input-data .lupapw a {
+        margin-left: 10px;
+        color: #ffffffef;
+        text-decoration: none;
+    }
+    /* -- RESERVATION INPUT -------------- */
+
+
+    /* -- PAYMENT -------------- */
+    .paymentback {
+        background-image: url(./assets/back-kor.jpg);
+        background-repeat: no-repeat;
+        height: 1200px;
+        width: 100%;
+        background-size: cover;
+        background-position: center;
+    }
+    .paymentback::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 1200px;
+        background-color: rgba(58, 36, 6, 0.795);
+    }
+    .deskripsi-payment {
+        position: relative;
+        color: white;
+    }
+    .deskripsi-payment h1 {
+        text-align: center;
+        margin-top: 30px;
+        font-size: 40px;
+    }
+    .deskripsi-payment p, h4 {
+        text-align: center;
+        margin-top: 10px;
+        opacity: 70%;
+        margin-bottom: 10px;
+    }
+
+    .bank {
+        position: relative;
+        margin-top: 30px;
+        width: 60%;
+        height: 300px;
+        background-color: rgba(0, 0, 0, 0.486);
+        border-radius: 25px;
+        margin-left: 20%;
+    }
+    .bank .header {
+        text-align: center;
+        padding: 40px;
+    }
+    .bank .logo img {
+        margin-left: 40px;
+        width: 150px;
+        margin-bottom: 30px;
+    }
+    .bank .keterangan h6 {
+        text-align: center;
+    }
+    /* -- PAYMENT -------------- */
+
+    /* -- RESERVATION -------------- */
+    .reserveback {
+        background-image: url(./assets/back-kor.jpg);
+        background-repeat: no-repeat;
+        height: 1000px;
+        width: 100%;
+        background-size: cover;
+        background-position: center;
+    }
+    .reserveback::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 1000px;
+        background-color: rgba(58, 36, 6, 0.839);
+    }
+    .deskripsi-table {
+        position: relative;
+    }
+    .deskripsi-table .tombol {
+        padding-left: 30px;
+        padding-right: 100px;
+        margin-top: 30px;
+    }
+    .tombol a {
+        background: none;
+    }
+    .table-responsive {
+        margin-top: 20px;
+        margin-left: 10px;
+        width: 95%;
+        height: 550px;
+        border-radius: 10px;
+    }
+    .table-responsive thead {
+        font-size: 10px;
+    }
+    .table-responsive tbody {
+      font-size: 10px;
+    }
+    .table-responsive table button {
+        width: 50px;
+        background-color: rgb(189, 39, 39);
+        margin-top: 40px;
+    }
+    .table-responsive table iconify-icon {
+        font-size: 25px;
+        padding-top: 1px;
+        color: white;
+        padding-left: 1px;
+    }
+
+    /* -- RESERVATION -------------- */
+
+
+    }
